@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir-font-v30.1.0/Vazir-Black.eot");
+}
+
+body{
+    font-family: "vazir";
+}
+
+
+
+ .icon{
+    color:#104448; background-color:#e2b5e2; display:inline-flex; padding :15px; border-radius: 15px;
+    
+ }
+
+
+
+.bg-main1{
+    background-color: white;
+    height: 50px;
+}
+
+.img-law {
+    width: 400px;
+    height: 200px;
+    
+    
+}
+.foter{
+    
+    background-color: #313030;
+}
+.hh{
+    height: 30px;
+}
+
+.danger{
+    background-color: #e2b5e2;
+    color: white;
+    font-weight: bold;
+
+
+
+    border: 1px solid #198754;
+   
+    transition: all .3s;
+    text-shadow: 2px 2px #1089104b;
+    
+}
+
+.bd{
+    padding: 7px 30px;
+    background-color: #635c63;
+   
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5f1f1;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.top-border {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 0;
+    left: 0;
+
+    background-color: #585458;
+    animation: LTR 1s linear infinite;
+    animation-delay: 0s;
+   
+}
+
+.right-border {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 80px;
+    background-color: #585458;
+    animation: UTD 1s linear infinite;
+    animation-delay: .4s;
+
+}
+.bottom-border {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    right: 0;
+    bottom: 0;
+    background-color: #585458;
+    animation: RTL 1s linear infinite;
+    animation-delay: 1s;
+
+}
+
+.left-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    height: 80px;
+    background-color: #585458;
+    animation: DTU  1s linear infinite;
+    animation-delay: 1.4s;
+}
+
+@keyframes LTR {
+    0% {
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
+@keyframes UTD {
+    0% {
+        transform: translateY(-90px);
+    }
+    100% {
+        transform: translateY(50px);
+
+    }
+}
+
+
+@keyframes RTL {
+    0% {
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes DTU {
+    0% {
+        transform: translateY(90px);
+    }
+    100% {
+        transform: translateY(-50px);
+
+    }
+}
+
+
+
+
+
+
+
+.imgg:hover{
+    transform: scale(1.1);
+}
+
+
+.bf{
+   
+    
+    animation: LTR-1 6s infinite;
+}
+
+
+
+
+
+
+.danger:hover {
+    background-color: #611074;
+    color: white;
+    box-shadow: 0px 0px 4px 0px #c589ce inset, 0px 0px 4px 2px #e29fe6;
+    animation-direction: alternate;
+}
+
+
+@keyframes cheshmakzan {
+    0% {
+        color: transparent;
+        text-shadow: none;
+    }
+    70% {
+        color: #10e710;
+        text-shadow: 2px 2px #1089104b;
+    }
+    90% {
+        color: transparent;
+        text-shadow: none;
+    }
+    100% {
+        color: #10e710;
+        text-shadow: 2px 2px #1089104b;
+    }
+}
+
+
+
+@keyframes LTR-1 {
+    0% {
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+
+    60% {
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+
+
+
+
+}
+
+.bii{
+    color: #10e710;
+}
+.bdd{
+    background-color: #eeecf6;
+}
+.bdd:hover{
+    background-color: #f5f1f1;
+    color: #611074;
+}
